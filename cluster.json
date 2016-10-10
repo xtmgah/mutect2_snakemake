@@ -1,0 +1,50 @@
+{
+    default :
+    {
+        "cores" : 1,
+        "hvmem" : "h_vmem=8G",
+        "memrequested" : "mem_requested=8G",
+        "account" : "GenomeInformatics",
+        "jobname" : "log_default"
+    },
+    "mutect_call" :
+    {
+        "cores" : 4,
+        "hvmem" : "h_vmem=8G",
+        "memrequested" : "mem_requested=8G",
+        "account" : "GenomeInformatics",
+        "jobname" : "log_mutect_call_2"
+    },
+    "oncotator" :
+    {
+        "cores" : 1,
+        "hvmem" : "h_vmem=8G",
+        "memrequested" : "mem_requested=8G",
+        "account" : "GenomeInformatics",
+        "jobname" : "log_oncotator_3"
+    },
+    "filter_pass" :
+    {
+        "cores" : 1,
+        "hvmem" : "h_vmem=8G",
+        "memrequested" : "mem_requested=8G",
+        "account" : "GenomeInformatics",
+        "jobname" : "log_filter_pass_3"
+    },
+    "concat" :
+    {
+        "cores" : 1,
+        "hvmem" : "h_vmem=8G",
+        "memrequested" : "mem_requested=8G",
+        "account" : "GenomeInformatics",
+        "jobname" : "log_concat_4"
+    },
+    "table_variants" :
+    {
+        "cores" : 1,
+        "hvmem" : "h_vmem=8G",
+        "memrequested" : "mem_requested=8G",
+        "account" : "GenomeInformatics",
+        "jobname" : "log_table_variants"
+    }
+}
